@@ -1,6 +1,4 @@
-name: example-environment
-channels:
-  - conda-forge
+name: julia-python
 dependencies:
   - numpy
   - psutil
@@ -12,7 +10,6 @@ dependencies:
   - bokeh
   - dask
   - pip
-  pip:
-    - julia
-    
+  - pip:
+      - julia
 
