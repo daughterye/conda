@@ -12,4 +12,5 @@ dependencies:
   - pip
   - pip:
       - julia
+      - octave_kernel
 
